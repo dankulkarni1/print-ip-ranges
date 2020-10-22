@@ -2,8 +2,7 @@
 
 This script will print all the IP ranges for a region name within all available AWS public ranges
 
-The AWS IP Ranges JSON File ` https://ip-ranges.amazonaws.com/ip-
-ranges.json ` will be downloaded if not present or updated everytime the script is run.
+The AWS IP Ranges JSON File `https://ip-ranges.amazonaws.com/ip-ranges.json` will be downloaded if not present or updated everytime the script is run.
 
 ## Usage
 
@@ -26,6 +25,9 @@ Example : `ERROR: Region "test" doesn't seem to exist within ip-ranges.json`
 At the end of running a valid query, the total sum of the unique IP ranges availavle within that region will be outputted `Total SUM of IP ranges available in Region "YOUR REGION" is "SUM" !`
 
 Example : `Total SUM of IP ranges available in Region "ap-northeast-2" is "1" !`
+
+
+
 
 
 Author - Dan Kulkarni
